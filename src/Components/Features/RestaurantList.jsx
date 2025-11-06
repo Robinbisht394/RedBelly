@@ -41,10 +41,7 @@ const RestaurantList = () => {
   }
 
   const showRestaurant = (id) => {
-    console.log(id);
-
     navigate(`/restaurant/${id}`);
-    console.log(id, "restuarnt sent");
   };
 
   // user restaurant search
@@ -61,9 +58,8 @@ const RestaurantList = () => {
         restaurant.address.toLowerCase().includes(searchValue.toLowerCase())
       );
     });
-    console.log(filteredRestaurant);
+
     setRestaurantList(filteredRestaurant);
-    console.log("reset list", restaurantList);
   };
 
   const restaurantSort = (sortType, sortOrder) => {

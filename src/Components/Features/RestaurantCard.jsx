@@ -11,7 +11,7 @@ const RestaurantCard = ({ restaurant, showRestaurant }) => {
       {/* Restaurant Image */}
       <div className="relative w-full h-[200px] overflow-hidden">
         <img
-          src={image || DefaultImage}
+          src={image}
           alt={`${name} image`}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
         />

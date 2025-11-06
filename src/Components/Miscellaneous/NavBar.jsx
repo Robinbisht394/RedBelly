@@ -1,10 +1,19 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaShoppingCart, FaBars, FaTimes, FaUserCircle } from "react-icons/fa";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [totalCartItems, setTotalCartItems] = useState(0);
 
+  useEffect(() => {
+    const cartData = JSON.parse(localStorage.getItem("redBelly"));
+    console.log(cartData);
+
+    if (cartData != null) {
+      setTotalCartItems(cartData.length);
+    }
+  }, [setTotalCartItems, setTotalCartItems]);
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center px-4 py-3">
@@ -64,7 +73,7 @@ const NavBar = () => {
               <span className="ml-1">Cart</span>
             </NavLink>
             <span className="absolute -top-2 -right-3 bg-red-500 text-white text-xs px-1.5 py-0.5 rounded-full">
-              {JSON.parse(localStorage.getItem("redBelly")).length}
+              {totalCartItems}
             </span>
           </li>
           {/* User */}

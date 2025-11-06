@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 
 const QuantityCounter = ({ count, item, Increase, decrease }) => {
-  console.log("item in qc", item);
-
-  console.log(typeof Increase, typeof decrease);
+ 
 
   return (
     <div className="border-2 border-black flex w-20 items-center rounded-md">

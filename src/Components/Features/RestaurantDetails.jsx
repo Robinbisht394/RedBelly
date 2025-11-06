@@ -59,8 +59,6 @@ const RestaurantDetails = () => {
     console.log(menu.item, "order placed");
   };
 
-  console.log(restaurant);
-
   return (
     <div>
       {restaurant.map((restaurant) => {
