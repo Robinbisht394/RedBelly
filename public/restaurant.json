@@ -1,0 +1,280 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Spicy Hub",
+      "cuisine": ["Indian", "Chinese"],
+      "rating": 4.5,
+      "location": "Bangalore, India",
+      "address": "123 MG Road, Bangalore, India",
+      "image": "https://source.unsplash.com/400x300/?food,indian",
+      "menu": [
+        {
+          "id": 101,
+          "item": "Butter Chicken",
+          "price": 350,
+          "image": "https://source.unsplash.com/400x300/?butter-chicken"
+        },
+        {
+          "id": 102,
+          "item": "Paneer Tikka",
+          "price": 250,
+          "image": "https://source.unsplash.com/400x300/?paneer-tikka"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Tandoori Flames",
+      "cuisine": ["Mughlai", "Barbecue"],
+      "rating": 4.3,
+      "location": "Mumbai, India",
+      "address": "45 Carter Road, Mumbai, India",
+      "image": "https://source.unsplash.com/400x300/?food,tandoori",
+      "menu": [
+        {
+          "id": 201,
+          "item": "Chicken Biryani",
+          "price": 400,
+          "image": "https://source.unsplash.com/400x300/?chicken-biryani"
+        },
+        {
+          "id": 202,
+          "item": "Seekh Kebab",
+          "price": 300,
+          "image": "https://source.unsplash.com/400x300/?seekh-kebab"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sushi Delight",
+      "cuisine": ["Japanese", "Sushi"],
+      "rating": 2.8,
+      "location": "Delhi, India",
+      "address": "78 Connaught Place, Delhi, India",
+      "image": "https://source.unsplash.com/400x300/?food,sushi",
+      "menu": [
+        {
+          "id": 301,
+          "item": "Salmon Sushi",
+          "price": 500,
+          "image": "https://source.unsplash.com/400x300/?salmon-sushi"
+        },
+        {
+          "id": 302,
+          "item": "Tempura Roll",
+          "price": 450,
+          "image": "https://source.unsplash.com/400x300/?tempura-roll"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Taste of Punjab",
+      "cuisine": ["North Indian"],
+      "rating": 4.7,
+      "location": "Delhi, India",
+      "address": "56 Connaught Place, Delhi",
+      "image": "https://source.unsplash.com/400x300/?restaurant,punjabi-food",
+      "menu": [
+        {
+          "id": 401,
+          "item": "Dal Makhani",
+          "price": 280,
+          "image": "https://source.unsplash.com/400x300/?dal-makhani"
+        },
+        {
+          "id": 402,
+          "item": "Amritsari Kulcha",
+          "price": 180,
+          "image": "https://source.unsplash.com/400x300/?amritsari-kulcha"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chopstick Tales",
+      "cuisine": ["Chinese", "Thai"],
+      "rating": 4.3,
+      "location": "Pune, India",
+      "address": "8 Koregaon Park, Pune",
+      "image": "https://source.unsplash.com/400x300/?restaurant,chinese-food",
+      "menu": [
+        {
+          "id": 501,
+          "item": "Hakka Noodles",
+          "price": 220,
+          "image": "https://source.unsplash.com/400x300/?hakka-noodles"
+        },
+        {
+          "id": 502,
+          "item": "Manchurian",
+          "price": 200,
+          "image": "https://source.unsplash.com/400x300/?manchurian"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "La Pasta Bella",
+      "cuisine": ["Italian"],
+      "rating": 4.8,
+      "location": "Mumbai, India",
+      "address": "22 Carter Road, Bandra, Mumbai",
+      "image": "https://source.unsplash.com/400x300/?restaurant,italian",
+      "menu": [
+        {
+          "id": 601,
+          "item": "Pasta Alfredo",
+          "price": 320,
+          "image": "https://source.unsplash.com/400x300/?pasta-alfredo"
+        },
+        {
+          "id": 602,
+          "item": "Margherita Pizza",
+          "price": 400,
+          "image": "https://source.unsplash.com/400x300/?margherita-pizza"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Sushi Den",
+      "cuisine": ["Japanese"],
+      "rating": 4.6,
+      "location": "Hyderabad, India",
+      "address": "7 Banjara Hills Road, Hyderabad",
+      "image": "https://source.unsplash.com/400x300/?restaurant,sushi",
+      "menu": [
+        {
+          "id": 701,
+          "item": "California Roll",
+          "price": 450,
+          "image": "https://source.unsplash.com/400x300/?california-roll"
+        },
+        {
+          "id": 702,
+          "item": "Miso Soup",
+          "price": 150,
+          "image": "https://source.unsplash.com/400x300/?miso-soup"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Burger Joint",
+      "cuisine": ["American", "Fast Food"],
+      "rating": 4.2,
+      "location": "Chennai, India",
+      "address": "12 T Nagar, Chennai",
+      "image": "https://source.unsplash.com/400x300/?restaurant,burger",
+      "menu": [
+        {
+          "id": 801,
+          "item": "Cheese Burger",
+          "price": 250,
+          "image": "https://source.unsplash.com/400x300/?cheeseburger"
+        },
+        {
+          "id": 802,
+          "item": "French Fries",
+          "price": 120,
+          "image": "https://source.unsplash.com/400x300/?french-fries"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Green Leaf Café",
+      "cuisine": ["Vegan", "Healthy"],
+      "rating": 4.4,
+      "location": "Pune, India",
+      "address": "101 JM Road, Pune",
+      "image": "https://source.unsplash.com/400x300/?restaurant,vegan",
+      "menu": [
+        {
+          "id": 901,
+          "item": "Avocado Salad",
+          "price": 280,
+          "image": "https://source.unsplash.com/400x300/?avocado-salad"
+        },
+        {
+          "id": 902,
+          "item": "Quinoa Bowl",
+          "price": 300,
+          "image": "https://source.unsplash.com/400x300/?quinoa-bowl"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Coastal Spice",
+      "cuisine": ["Seafood", "South Indian"],
+      "rating": 4.7,
+      "location": "Kochi, India",
+      "address": "14 Marine Drive, Kochi",
+      "image": "https://source.unsplash.com/400x300/?restaurant,seafood",
+      "menu": [
+        {
+          "id": 1001,
+          "item": "Fish Curry",
+          "price": 370,
+          "image": "https://source.unsplash.com/400x300/?fish-curry"
+        },
+        {
+          "id": 1002,
+          "item": "Prawn Masala",
+          "price": 420,
+          "image": "https://source.unsplash.com/400x300/?prawn-masala"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Bombay Bistro",
+      "cuisine": ["Indian", "Street Food"],
+      "rating": 4.1,
+      "location": "Mumbai, India",
+      "address": "89 Linking Road, Mumbai",
+      "image": "https://source.unsplash.com/400x300/?restaurant,street-food",
+      "menu": [
+        {
+          "id": 1101,
+          "item": "Vada Pav",
+          "price": 100,
+          "image": "https://source.unsplash.com/400x300/?vada-pav"
+        },
+        {
+          "id": 1102,
+          "item": "Pav Bhaji",
+          "price": 150,
+          "image": "https://source.unsplash.com/400x300/?pav-bhaji"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Tandoor Tales",
+      "cuisine": ["Mughlai", "North Indian"],
+      "rating": 4.6,
+      "location": "Lucknow, India",
+      "address": "78 Hazratganj, Lucknow",
+      "image": "https://source.unsplash.com/400x300/?restaurant,mughlai",
+      "menu": [
+        {
+          "id": 1201,
+          "item": "Chicken Biryani",
+          "price": 300,
+          "image": "https://source.unsplash.com/400x300/?chicken-biryani"
+        },
+        {
+          "id": 1202,
+          "item": "Seekh Kebab",
+          "price": 280,
+          "image": "https://source.unsplash.com/400x300/?seekh-kebab"
+        }
+      ]
+    }
+  ]
+}
