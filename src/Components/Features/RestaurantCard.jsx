@@ -2,7 +2,6 @@ import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaCity } from "react-icons/fa";
 import { FaBowlFood } from "react-icons/fa6";
-import DefaultImage from "../../assets/react.svg";
 
 const RestaurantCard = ({ restaurant, showRestaurant }) => {
   const { id, name, cuisine, rating, location, address, image } = restaurant;

@@ -1,7 +1,5 @@
 import React from "react";
 import QuantityCounter from "./QuantityCounter";
-import DefaultImage from "../../assets/react.svg"; // fallback image
-
 const CartList = ({ Item, Increase, decrease }) => {
   console.log(typeof Increase, typeof decrease);
 

@@ -2,7 +2,7 @@ import React from "react";
 import { FaRupeeSign } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartPlus } from "@fortawesome/free-solid-svg-icons";
-import DefaultImage from "../../assets/react.svg";
+
 
 const MenuCard = ({ menu, addToCart, orderNow }) => {
   const { image, item, price, id } = menu;

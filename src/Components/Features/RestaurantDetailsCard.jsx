@@ -4,7 +4,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaCity } from "react-icons/fa";
 import { FaBowlFood } from "react-icons/fa6";
 import MenuCard from "./MenuCard";
-import DefaultImage from "../../assets/react.svg";
 
 const RestaurantDetailsCard = ({ restaurant, addToCart, orderNow }) => {
   const { id, name, cuisine, rating, location, address, image, menu } =
