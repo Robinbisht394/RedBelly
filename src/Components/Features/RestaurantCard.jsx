@@ -32,10 +32,18 @@ const RestaurantCard = ({ restaurant, showRestaurant }) => {
       <div className="p-4">
         {/* Name and Cuisine */}
         <h2 className="text-xl font-bold text-gray-800 truncate">{name}</h2>
-        <p className="text-gray-500 text-sm flex items-center mt-1">
-          <FaBowlFood className="text-red-500 mr-1" />
-          {cuisine}
-        </p>
+        <div className="flex justify-start items-center text-left">
+          <FaBowlFood className="text-red-500 mr-1 " />
+          <div className="flex justify-between items-center gap-1">
+            {cuisine.map((element) => {
+              return (
+                <p className="text-gray-500 text-sm flex items-center mt-1">
+                  {element}
+                </p>
+              );
+            })}
+          </div>
+        </div>
 
         {/* Location */}
         <div className="mt-3 space-y-1">

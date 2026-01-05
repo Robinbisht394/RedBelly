@@ -35,10 +35,18 @@ const RestaurantDetailsCard = ({ restaurant, addToCart, orderNow }) => {
       <div className="p-6 flex flex-col md:flex-row justify-between md:items-center border-b border-gray-200">
         <div className="space-y-2">
           <h1 className="text-3xl font-bold text-gray-800">{name}</h1>
-          <p className="text-gray-600 flex items-center text-sm sm:text-base">
-            <FaBowlFood className="text-red-500 mr-2" />
-            {cuisine}
-          </p>
+          <div className="flex justify-start items-center text-left">
+            <FaBowlFood className="text-red-500 mr-1 " />
+            <div className="flex justify-between items-center gap-1">
+              {cuisine.map((element) => {
+                return (
+                  <p className="text-gray-500 text-sm flex items-center mt-1">
+                    {element}
+                  </p>
+                );
+              })}
+            </div>
+          </div>
           <p className="text-gray-600 flex items-center text-sm sm:text-base">
             <FaCity className="text-red-400 mr-2" />
             {location}
